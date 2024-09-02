@@ -5,7 +5,7 @@ const submit = document.querySelector('.submit-answer__button');
 const thankYou = document.querySelector('.thank-you-container');
 const rating = document.querySelector('.rating-selected'); 
 
-let selectRating = " ";
+let selectRating = "";
 
 btn.forEach((button) =>{
     button.addEventListener("click",() =>{
